@@ -1,0 +1,15 @@
+@media (max-width: 960px) {
+  .header__list {
+    display: none;
+  }
+
+  .header-container {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 549px) {
+  .footer__list {
+    flex-direction: column;
+  }
+}

@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="icon" href="favicon.png">
-
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
-            <div class="header-container flex">
-                <a href=""><img src="./img/Logo.webp" class="header__img" alt="Логотип компании"></a>
+            <div class="header__container flex">
+                <a href=""><img src="./img/logos/logo_slate.svg" class="header__img" alt="Логотип компании"></a>
                 <nav class="header__nav">
                     <ul class="header__list list-reset flex">
                         <li class="header__item">
@@ -50,9 +48,9 @@
     </header>
     <main class="main">
         <section class="hero">
-            <div class="container hero-container">
+            <div class="hero__container">
                 <h1 class="hero__title">Работайте на скорости мысли</h1>
-                <p class="hero__destr section-destr">Большинство календарей предназначены для команд. Slate предназначен
+                <p class="hero__descr section-descr">Большинство календарей предназначены для команд. Slate предназначен
                     для фрилансеров, которым нужен
                     удобный способ планировать свой график.</p>
                 <div class="btn-wrap flex">
@@ -60,125 +58,122 @@
                         бесплатно</button>
                     <button aria-label="Кнопка Узнать больше" class="btn">Узнать больше</button>
                 </div>
-                <div class="hero__background">
-                    <!-- <img class="hero__img" src="./img/screens.webp" alt=""> -->
-                </div>
+                <img class="hero__img" src="./img/section-image/screens.webp" alt="">
             </div>
         </section>
         <section class="ability" id="ability">
-            <div class="container ability-container">
-                <h2 class="section-title ability-title">Возможности</h2>
-                <p class="ability__destr section-destr">Большинство календарей предназначены для команд. Slate
+            <div class="container ability__container">
+                <h2 class="section-title ability__title">Возможности</h2>
+                <p class="ability__descr section-descr">Большинство календарей предназначены для команд. Slate
                     предназначен для фрилансеров, которым нужен
                     удобный способ планировать свой график.</p>
 
                 <div class="ability__wrap flex">
                     <div class="ability__image">
-                        <!-- <img class="ability__image-item" src="./img/ability_graph.webp" alt="Вид Slate"> -->
+                        <img class="ability__image-item" src="./img/section-image/ability_graph.webp" alt="Вид Slate">
                     </div>
                     <div class="ability__wrap-right-block">
                         <div class='ability__wrap-block'>
                             <div class='ability__wrap-title svg1'>Полезные подсказки</div>
-                            <div class='ability__wrap-destr'>Когда вы добавите
+                            <p class='ability__wrap-descr'>Когда вы добавите
                                 задачу в свой календарь,
                                 Slate предложит полезную
-                                информацию.</div>
+                                информацию.</p>
                         </div>
                         <div class='ability__wrap-block'>
                             <div class='ability__wrap-title svg2'>Умный интерфейс</div>
-                            <div class='ability__wrap-destr'>Интерфейс приложения
+                            <p class='ability__wrap-descr'>Интерфейс приложения
                                 автоматически подстраивается
-                                под вашу текущую задачу.</div>
+                                под вашу текущую задачу.</p>
                         </div>
                         <div class='ability__wrap-block'>
                             <div class='ability__wrap-title svg3'>Синхронизация</div>
-                            <div class='ability__wrap-destr'>Slate синхронизируется
+                            <p class='ability__wrap-descr'>Slate синхронизируется
                                 со всеми вашими
-                                календарями.</div>
+                                календарями.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="extensions" id="extensions">
-            <div class="container extensions-container">
-                <h2 class="section-title extensions-title">Расширения</h2>
-                <p class="extensions__destr section-destr">Slate поддерживает добавление расширений для того,
+            <div class="container extensions__container">
+                <h2 class="section-title extensions__title">Расширения</h2>
+                <p class="extensions__descr section-descr">Slate поддерживает добавление расширений для того,
                     чтобы ваша работа была еще удобнее.</p>
                 <div class="extensions__wrap flex">
                     <div class="extensions__card flex">
                         <div class="card-title">Работа под защитой</div>
-                        <div class="card-destr">Вы когда-нибудь задумывались,
+                        <div class="card-descr">Вы когда-нибудь задумывались,
                             хорошо ли защищён ваш рабочий аккаунт?
                             Slate Safe поможет вам с этим.</div>
                         <button aria-label="Кнопка Скачать Slate"
                             class="btn btn-primary extensions-btn">Скачать</button>
                         <div class="extensions__card-image1"></div>
-                        <!-- <img class="imimim" src="../img/Macbook_Pro.webp" alt=""> -->
                     </div>
                     <div class="extensions__card flex">
                         <div class="card-title">Slate не конкурирует,
                             а дружит со своими "коллегами"</div>
-                        <div class="card-destr">Свяжите задачи в Slate Connect с задачами
+                        <div class="card-descr">Свяжите задачи в Slate Connect с задачами
                             в других системах планирования проектов.</div>
                         <button aria-label="Кнопка Попробовать бесплатно"
                             class="btn btn-primary extensions-btn">Попробовать бесплатно</button>
                         <div class="extensions__card-image2"></div>
-                        <!-- <img class="imimim" src="./img/card_notifications.webp" alt=""> -->
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="gallery" id="gallery">
-            <div class="container gallery-container">
-                <h2 class="section-title gallery-title">Галерея</h2>
-                <p class="gallery__destr section-destr">Мы уделяем особое внимание эргономике
+            <div class="container gallery__container">
+                <h2 class="section-title gallery__title">Галерея</h2>
+                <p class="gallery__descr section-descr">Мы уделяем особое внимание эргономике
                     и заботимся о том, что бы вам было удобно.</p>
                 <div class="gallery__wrap flex">
-                    <img class="gallery__wrap-image" src="./img/Rectangle1.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle2.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle3.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle4.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle5.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle6.webp" alt="Фото галлереи">
-                    <img class="gallery__wrap-image" src="./img/Rectangle7.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/1.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/2.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/3.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/4.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/5.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/6.webp" alt="Фото галлереи">
+                    <img class="gallery__wrap-image" src="./img/gallery-foto/7.webp" alt="Фото галлереи">
                 </div>
                 <button aria-label="Кнопка Смотреть остальные изображения" class="btn gallery-btn">Смотреть еще</button>
             </div>
         </section>
 
         <section class="partners">
-            <div class="container partners-container">
-                <h2 class="section-title partners-title">Партнёры</h2>
-                <p class="partners__destr section-destr">Коллаборация с партнерами дает дополнительные
+            <div class="container partners__container">
+                <h2 class="section-title partners__title">Партнёры</h2>
+                <p class="partners__descr section-descr">Коллаборация с партнерами дает дополнительные
                     возможности в использовании Slate.</p>
                 <div class="partners__wrap flex">
-                    <img class="partners__wrap-image" src="./img/logos_apple-app-store.svg" alt="Логотип AppleApp">
-                    <img class="partners__wrap-image" src="./img/logos_apiary.svg" alt="Логотип Apiary">
-                    <img class="partners__wrap-image" src="./img/logos_android-icon.svg" alt="Логотип Android">
-                    <img class="partners__wrap-image" src="./img/logos_basecamp.svg" alt="Логотип Basecamp">
-                    <img class="partners__wrap-image" src="./img/logos_airbnb.svg" alt="Логотип Airbnb">
-                    <img class="partners__wrap-image" src="./img/logos_ibm.svg" alt="Логотип Bnb">
+                    <img class="partners__wrap-image" src="./img/logos/logos_apple-app-store.svg"
+                        alt="Логотип AppleApp">
+                    <img class="partners__wrap-image" src="./img/logos/logos_apiary.svg" alt="Логотип Apiary">
+                    <img class="partners__wrap-image" src="./img/logos/logos_android.svg" alt="Логотип Android">
+                    <img class="partners__wrap-image" src="./img/logos/logos_basecamp.svg" alt="Логотип Basecamp">
+                    <img class="partners__wrap-image" src="./img/logos/logos_airbnb.svg" alt=" Логотип Airbnb">
+                    <img class="partners__wrap-image" src="./img/logos/logos_ibm.svg" alt=" Логотип Bnb">
                 </div>
                 <button aria-label="Кнопка Смотреть всех партнеров" class="btn partners-btn">Все партнёры</button>
             </div>
         </section>
 
         <section class="reviews" id="reviews">
-            <div class="container reviews-container">
-                <h2 class="section-title reviews-title">Отзывы</h2>
+            <div class="container reviews__container">
+                <h2 class="section-title reviews__title">Отзывы</h2>
                 <ul class="reviews__list list-reset flex">
 
                     <li class="reviews__card">
                         <div class="reviews__card-header flex">
-                            <img class="reviews__card-image" src="./img/avatar1.png" alt="Аватар пользователя">
+                            <img class="reviews__card-image" src="./img/avatars/avatar1.png" alt="Аватар пользователя">
                             <div class="reviews__card-wrap">
-                                <div>Алёна Романова</div>
+                                <h4>Алёна Романова</h4>
                                 <div>Дизайнер</div>
                             </div>
                         </div>
-                        <p class="reviews__card-destr">Slate поможет вам узнать, сколько еще
+                        <p class="reviews__card-descr">Slate поможет вам узнать, сколько еще
                             дней нужно работать, чтобы достичь
                             своей финансовой цели на месяц и год.
                             А расширение защиты позаботится
@@ -187,13 +182,13 @@
 
                     <li class="reviews__card">
                         <div class="reviews__card-header flex">
-                            <img class="reviews__card-image" src="./img/avatar2.png" alt="Аватар пользователя">
+                            <img class="reviews__card-image" src="./img/avatars/avatar2.png" alt="Аватар пользователя">
                             <div class="reviews__card-wrap">
-                                <div>Евгений Титов</div>
+                                <h4>Евгений Титов</h4>
                                 <div>Инженер</div>
                             </div>
                         </div>
-                        <p class="reviews__card-destr">Я в восторге от этого приложения!
+                        <p class="reviews__card-descr">Я в восторге от этого приложения!
                             Оно является удобным инструментом
                             в моей обычной работе дизайнера.
                             Интерфейс приложения прост, что делает
@@ -202,13 +197,13 @@
 
                     <li class="reviews__card">
                         <div class="reviews__card-header flex">
-                            <img class="reviews__card-image" src="./img/avatar3.png" alt="Аватар пользователя">
+                            <img class="reviews__card-image" src="./img/avatars/avatar3.png" alt="Аватар пользователя">
                             <div class="reviews__card-wrap">
-                                <div>Роман Васильев</div>
+                                <h4>Роман Васильев</h4>
                                 <div>Дизайнер</div>
                             </div>
                         </div>
-                        <p class="reviews__card-destr">Приложение – настоящий подарок для
+                        <p class="reviews__card-descr">Приложение – настоящий подарок для
                             инженеров! Оно предоставляет
                             впечатляющий набор инструментов,
                             который существенно упрощает и
@@ -217,13 +212,13 @@
 
                     <li class="reviews__card">
                         <div class="reviews__card-header flex">
-                            <img class="reviews__card-image" src="./img/avatar4.png" alt="Аватар пользователя">
+                            <img class="reviews__card-image" src="./img/avatars/avatar4.png" alt="Аватар пользователя">
                             <div class="reviews__card-wrap">
-                                <div>Лиза Ковалёва</div>
+                                <h4>Лиза Ковалёва</h4>
                                 <div>Копирайтер</div>
                             </div>
                         </div>
-                        <p class="reviews__card-destr">Это приложение стало настоящим
+                        <p class="reviews__card-descr">Это приложение стало настоящим
                             спасением для меня, как для копирайтера.
                             Оно умело сочетает все необходимые
                             инструменты для творческого процесса,
@@ -234,35 +229,41 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-container flex">
-            <ul class="list-reset flex footer__list">
-                <li class="footer__list-item flex">
-                    <a aria-label="Основные разделы сайта" class="item-title" href="">Основное</a>
-                    <a class="item-link" href="#ability">Возможности</a>
-                    <a class="item-link" href="#extensions">Расширения</a>
-                    <a class="item-link" href="#gallery">Галерея</a>
-                    <a class="item-link" href="#reviews">Отзывы</a>
+        <div class="container footer__container flex">
+            <ul class="list-reset footer__list flex">
+                <li class="footer__list-item">
+                    <ul class="footer__link-list list-reset flex">
+                        <li class="link-title"><a aria-label="Основные разделы сайта" href="">Основное</a></li>
+                        <li class="item-link"><a href="#ability">Возможности</a></li>
+                        <li class="item-link"><a href="#extensions">Расширения</a></li>
+                        <li class="item-link"><a href="#gallery">Галерея</a></li>
+                        <li class="item-link"><a href="#reviews">Отзывы</a></li>
+                    </ul>
                 </li>
 
-                <li class="footer__list-item flex">
-                    <a aria-label="Ресурсы сайта" class="item-title" href="">Ресурсы</a>
-                    <a class="item-link" href="">Приложение</a>
-                    <a class="item-link" href="">Обновления</a>
-                    <a class="item-link" href="">Скрипты</a>
-                    <a class="item-link" href="">Документация</a>
+                <li class="footer__list-item">
+                    <ul class="footer__link-list list-reset flex">
+                        <li class="link-title"><a aria-label="Ресурсы сайта" href="">Ресурсы</a></li>
+                        <li class="item-link"> <a href="">Приложение</a></li>
+                        <li class="item-link"> <a href="">Обновления</a></li>
+                        <li class="item-link"> <a href="">Скрипты</a></li>
+                        <li class="item-link"> <a href="">Документация</a></li>
+                    </ul>
                 </li>
 
-                <li class="footer__list-item flex">
-                    <a aria-label="О нас" class="item-title" href="">МЫ</a>
-                    <a class="item-link" href="">О приложении</a>
-                    <a class="item-link" href="">Контакты</a>
-                    <a class="item-link" href="">Связаться</a>
+                <li class="footer__list-item">
+                    <ul class="footer__link-list list-reset flex">
+                        <li class="link-title"><a aria-label="О нас" href="">МЫ</a></li>
+                        <li class="item-link"><a href="">О приложении</a></li>
+                        <li class="item-link"><a href="">Контакты</a></li>
+                        <li class="item-link"><a href="">Связаться</a></li>
+                    </ul>
                 </li>
             </ul>
 
             <div class="footer__right-block">
                 <div class="footer__adress flex">
-                    <a aria-label="Юридический адрес" class="footer__link imggg1" href="contact.html">ул. Московская,
+                    <a aria-label="Юридический адрес" class="footer__link logo-map" href="contact.html">ул. Московская,
                         д 1.</a>
                 </div>
                 <div class="footer__tel">
@@ -272,13 +273,13 @@
 
                 <div class="footer__box flex">
                     <a target="_blank" href="https://twitter.com/" class="footer__icon"
-                        aria-label="Перейти в Твиттер"><img class="footer__icon-img" src="img/t.svg"
+                        aria-label="Перейти в Твиттер"><img class="footer__icon-img" src="img/vektor/twitter.svg"
                             alt="Логотип X"></a>
                     <a target="_blank" href="https://www.facebook.com/" class="footer__icon"
-                        aria-label="Перейти в Фейсбук"><img class="footer__icon-img" src="./img/ttt.svg"
+                        aria-label="Перейти в Фейсбук"><img class="footer__icon-img" src="./img/vektor/facebook.svg"
                             alt="Логотип Facebook"></a>
                     <a target="_blank" href="https://www.linkedin.com/" class="footer__icon"
-                        aria-label="Перейти в Линкедин"><img class="footer__icon-img" src="./img/tt.svg"
+                        aria-label="Перейти в Линкедин"><img class="footer__icon-img" src="./img/vektor/linkedin.svg"
                             alt="Логотип In"></a>
                 </div>
             </div>
